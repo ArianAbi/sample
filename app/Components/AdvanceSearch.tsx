@@ -43,16 +43,11 @@ export default function AdvanceSearch() {
 
               <div className="flex items-center gap-2 justify-center">
                 <div className="w-[60px]">سال انتشار</div>
-                <div style={{ direction: "ltr" }}>
-                  {/* <Slider
-                    label="Price Range"
-                    step={50}
-                    minValue={0}
-                    maxValue={1000}
-                    defaultValue={[100, 500]}
-                    className="max-w-md"
-                  /> */}
-                </div>
+                <select className="w-full bg-fuchsia-400 text-white text-lg py-1 px-2 rounded-lg ">
+                  <option className="bg-fuchsia-500">همه</option>
+                  <option className="bg-fuchsia-500">گزینه 2</option>
+                  <option className="bg-fuchsia-500">گزینه 3</option>
+                </select>
               </div>
             </div>
 
